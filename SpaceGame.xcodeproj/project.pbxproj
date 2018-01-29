@@ -17,6 +17,11 @@
 		AD1577B420158BCE0054FEB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1577B220158BCE0054FEB2 /* LaunchScreen.storyboard */; };
 		AD1577BF20158BCE0054FEB2 /* SpaceGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1577BE20158BCE0054FEB2 /* SpaceGameTests.swift */; };
 		AD1577CA20158BCE0054FEB2 /* SpaceGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1577C920158BCE0054FEB2 /* SpaceGameUITests.swift */; };
+		AD1577DA20158E420054FEB2 /* FirstScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1577D920158E420054FEB2 /* FirstScene.swift */; };
+		AD1577DC201592D50054FEB2 /* SpaceScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1577DB201592D50054FEB2 /* SpaceScene.swift */; };
+		ADA1C0D6201C438800AD6A14 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = ADA1C0D5201C438800AD6A14 /* Explosion.sks */; };
+		ADA1C0D8201C445800AD6A14 /* SpaceDust.sks in Resources */ = {isa = PBXBuildFile; fileRef = ADA1C0D7201C445800AD6A14 /* SpaceDust.sks */; };
+		ADE8817220182D7B004706D8 /* PhysicsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE8817120182D7B004706D8 /* PhysicsCategory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		AD1577C520158BCE0054FEB2 /* SpaceGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1577C920158BCE0054FEB2 /* SpaceGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceGameUITests.swift; sourceTree = "<group>"; };
 		AD1577CB20158BCE0054FEB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1577D920158E420054FEB2 /* FirstScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScene.swift; sourceTree = "<group>"; };
+		AD1577DB201592D50054FEB2 /* SpaceScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceScene.swift; sourceTree = "<group>"; };
+		ADA1C0D5201C438800AD6A14 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		ADA1C0D7201C445800AD6A14 /* SpaceDust.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SpaceDust.sks; sourceTree = "<group>"; };
+		ADE8817120182D7B004706D8 /* PhysicsCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +118,11 @@
 				AD1577A720158BCE0054FEB2 /* Actions.sks */,
 				AD1577A920158BCE0054FEB2 /* GameScene.swift */,
 				AD1577AB20158BCE0054FEB2 /* GameViewController.swift */,
+				AD1577D920158E420054FEB2 /* FirstScene.swift */,
+				AD1577DB201592D50054FEB2 /* SpaceScene.swift */,
+				ADE8817120182D7B004706D8 /* PhysicsCategory.swift */,
+				ADA1C0D5201C438800AD6A14 /* Explosion.sks */,
+				ADA1C0D7201C445800AD6A14 /* SpaceDust.sks */,
 				AD1577AD20158BCE0054FEB2 /* Main.storyboard */,
 				AD1577B020158BCE0054FEB2 /* Assets.xcassets */,
 				AD1577B220158BCE0054FEB2 /* LaunchScreen.storyboard */,
@@ -244,8 +259,10 @@
 				AD1577AF20158BCE0054FEB2 /* Main.storyboard in Resources */,
 				AD1577A620158BCE0054FEB2 /* GameScene.sks in Resources */,
 				AD1577B120158BCE0054FEB2 /* Assets.xcassets in Resources */,
+				ADA1C0D8201C445800AD6A14 /* SpaceDust.sks in Resources */,
 				AD1577B420158BCE0054FEB2 /* LaunchScreen.storyboard in Resources */,
 				AD1577A820158BCE0054FEB2 /* Actions.sks in Resources */,
+				ADA1C0D6201C438800AD6A14 /* Explosion.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD1577AA20158BCE0054FEB2 /* GameScene.swift in Sources */,
+				AD1577DC201592D50054FEB2 /* SpaceScene.swift in Sources */,
+				AD1577DA20158E420054FEB2 /* FirstScene.swift in Sources */,
+				ADE8817220182D7B004706D8 /* PhysicsCategory.swift in Sources */,
 				AD1577AC20158BCE0054FEB2 /* GameViewController.swift in Sources */,
 				AD1577A420158BCE0054FEB2 /* AppDelegate.swift in Sources */,
 			);
